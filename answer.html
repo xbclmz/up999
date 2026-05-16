@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>最新最热</title>
+    <title>历史答案</title>
     <style>
         .container { display: flex; flex-wrap: wrap; gap: 10px; }
         .card { min-width: 300px; }
@@ -12,13 +12,16 @@
 <body>
     <div id="app"></div>
     <br><br>
-    <a href="more.html">历史答案</a>
+    <a href="more.html">返回答案列表</a>
 
     <script src="data.js"></script>
     <script>
-        const item = DATA[0];
-        if (item.cards) {
-            // 多卷并排
+        const id = new URLSearchParams(location.search).get('id');
+        const item = DATA.find(d => d.id === id);
+
+        if (!item) {
+            document.getElementById('app').innerHTML = '<p>未找到该答案</p>';
+        } else if (item.cards) {
             document.getElementById('app').innerHTML =
                 '<div class="container">' +
                 item.cards.map(c =>
@@ -27,7 +30,6 @@
                 ).join('') +
                 '</div>';
         } else {
-            // 单卷
             document.getElementById('app').innerHTML =
                 '<h2>' + item.title + '</h2>' +
                 '<div style="white-space:pre-wrap">' + item.answers + '</div>';

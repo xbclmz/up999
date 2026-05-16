@@ -6,10 +6,18 @@
     <title>历史答案列表</title>
 </head>
 <body>
-    <p><a href="history/20260509.html">(20260509)中级->模拟试题（十八）</a></p>       
-    <p><a href="history/20260502.html">(20260502)（高一卷B）2026年五一听力联考</a></p>    
-    <p><a href="history/20260501.html">(20260501)（高一卷A）2026年五一听力联考</a></p>
+    <div id="list"></div>
     <br><br>
     <a href="index.html">返回最新答案</a>
+
+    <script src="data.js"></script>
+    <script>
+        // 跳过第一条（最新的已在首页展示），其余作为历史
+        const history = DATA.slice(1);
+        document.getElementById('list').innerHTML = history.map(item => {
+            const title = item.title || item.cards.map(c => c.title).join(' / ');
+            return '<p><a href="answer.html?id=' + item.id + '">' + title + '</a></p>';
+        }).join('');
+    </script>
 </body>
 </html>
