@@ -15,6 +15,31 @@ const DATA = [
   //   ]
   // },
   {
+    id: "20260523",
+    title: "(20260523)中级->模拟试题46",
+    answers:
+` 1. Find a job.
+ 2. A park.
+ 3. Challenging but rewarding.
+ 4. She wants to live near her company.
+ 5. To finish his report quietly.
+ 6. 30 kilometers per hour.
+ 7. New safety measures in the school area.
+ 8. She’s a designer.
+ 9. In the street.
+10. Unique places.
+11. It makes her feel like she’s traveling.
+12. Travel tips for visitors.
+13. Every Tuesday and Thursday.
+14. To help and connect local people.
+15. Teaching seniors to use smartphones.
+16. Recycle used clothes.
+17. Classmates.
+18. To explain classroom rules.
+19. Being late for class.
+20. They are for study purposes only.`    
+  },
+  {
     id: "20260516",
     title: "(20260516)模测11->基础训练（考试模式）",
     answers:
