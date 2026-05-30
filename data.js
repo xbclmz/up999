@@ -15,6 +15,31 @@ const DATA = [
   //   ]
   // },
   {
+    id: "20260530",
+    title: "(20260530)中级->模拟试题（三十五）",
+    answers:
+` 1. Wash the dishes.
+ 2. London.
+ 3. 15.
+ 4. He was at a doctor’s appointment.
+ 5. In her car.
+ 6. In a little town.
+ 7. To make friends.
+ 8. At a café.
+ 9. Strangers.
+10. Have a family trip.
+11. She is playing on her phone.
+12. Surprised.
+13. 69.
+14. The birth of a new baby.
+15. Trains.
+16. A shopkeeper.
+17. To help him adapt to his new role.
+18. How language impacts our understanding.
+19. Germany.
+20. It focuses on the person who causes the action.`    
+  },
+  {
     id: "20260523",
     title: "(20260523)中级->模拟试题46",
     answers:
