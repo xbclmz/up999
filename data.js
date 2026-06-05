@@ -37,7 +37,7 @@ const DATA = [
 18. At the age of 19.
 19. His desire to help people.
 20. Paying attention to the surroundings.` },
-    { title: "(20260608)中级->模拟试题（三十七））", answers: ` 1. A coat.
+      { title: "(20260608)中级->模拟试题（三十七）", answers: ` 1. A coat.
  2. By computer.
  3. Visit Italy.
  4. One.
@@ -56,7 +56,27 @@ const DATA = [
 17. Giving public speeches.
 18. By joining a group.
 19. Be willing to take challenges.
-20. Significant changes towards public speaking.` }
+20. Significant changes towards public speaking.` },
+      { title: "(20260609)中级->模拟试题（三十八）", answers: ` 1. Its great performance.
+ 2. Sort the novels.
+ 3. He had a conference.
+ 4. On a ship.
+ 5. Having an eye examination.
+ 6. Measures to build a greener campus.
+ 7. Taking recycling actions.
+ 8. Relieved.
+ 9. Examiner and examinee.
+10. Go cross-country running.
+11. They should be wide enough.
+12. 1.5.
+13. The grey ones.
+14. He was a business person.
+15. Engineering.
+16. Four years.
+17. To pass on useful skills.
+18. For farming and business.
+19. It can be viewed by car.
+20. Its historical role and significance.` }
     ]
   },
   {
