@@ -15,6 +15,31 @@ const DATA = [
   //   ]
   // },
   {
+    id: "20260606",
+    cards: [
+      { title: "(20260606)中级->模拟试题（三十六）", answers: ` 1. A hamburger and chicken soup.
+ 2. At an airport.
+ 3. Try out for another team.
+ 4. A natural disaster.
+ 5. At 11:00 a.m.
+ 6. She went to the hospital.
+ 7. Searching for more information.
+ 8. Working on his task.
+ 9. In France.
+10. It’s time-consuming.
+11. Father and son.
+12. He found and corrected some errors.
+13. A reporter.
+14. Conducting an interview.
+15. She wrote her first comic book as a teenager.
+16. To offer chances to younger generations.
+17. How to drive safely.
+18. At the age of 19.
+19. His desire to help people.
+20. Paying attention to the surroundings.` },
+    ]
+  },
+  {
     id: "20260530",
     title: "(20260530)中级->模拟试题（三十五）",
     answers:
